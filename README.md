@@ -10,3 +10,11 @@ Designed for small-scale experiments (not production) — suitable for notebooks
 - MLM head + NSP head implemented manually
 - Weight tying between embedding matrix and MLM output layer
 - WikiText-2 dataset (HuggingFace Datasets)
+
+## Important information relating to the project
+- I have used the Pretrained Bert Tokenizer ('bert-base-uncaed') for tokenizing the input sentences.
+- I am training for only 3 epochs due to limited resources.
+- NSP Acc. is nearly 0.54 but will improve on training further.
+
+## Installation
+For simplicity, I have created **BERT.ipynb** which contains the code and can be run locally or online. The trained model is saved to **mini_bert_weights.pt** can can be loaded directly for use/ testing without retraining.
