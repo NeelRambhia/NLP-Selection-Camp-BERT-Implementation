@@ -17,4 +17,4 @@ Designed for small-scale experiments (not production) — suitable for notebooks
 - NSP Acc. is nearly 0.54 but will improve on training further.
 
 ## Installation
-For simplicity, I have created **BERT.ipynb** which contains the code and can be run locally or online. The trained model is saved to **mini_bert_weights.pt** can can be loaded directly for use/ testing without retraining.
+For simplicity, I have created **BERT.ipynb** which contains the code and can be run locally or online.
